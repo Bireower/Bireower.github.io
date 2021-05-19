@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href = "css/c1.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+    <div id="wordList"></div> <!--根ID，整个APP的根-->
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> -->
+    <script src="js/CreateForm.js"></script>
+
+    <script>
+        var createForm = new CreateForm()
+    </script>
+    <input type="text" value="None" id="wordLineEdit"/>
+    <input type="button" value="add" onclick="AddLineWord()"/>
+    <script src="js/LoadLocalData.js"></script>
+    <input type="file"accept="./*" />
+
+    
+</body>
+</html>
+
+<!-- 单词部分
+    导入本地单词，txt/xml
+    显示单词，表格
+    单词权重
+    单词自测
+-->
