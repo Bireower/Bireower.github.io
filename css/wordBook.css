@@ -1,0 +1,63 @@
+body{
+    height: 100vh;
+    margin:0;
+    display: grid;
+    place-items: center;
+    background-color: #ffe2b896;
+
+}
+table{
+    top:150px;
+    height: 40px;
+    border-radius: 15px;
+    border-bottom: 1.5px solid #ddd;
+    background-color:#d7e8ffe8;
+}
+.wordName-td {
+    width:200px;
+    padding-left:20px;
+}
+.wordTrans-td
+{
+    width:600px;
+    white-space: pre-line;/*转义字符换行*/
+}
+.wordDel-td{
+    width:40px;
+    text-align: center;
+}
+table:nth-child(even){
+    background-color: #e8f2ffe8;
+}
+table:hover {
+    background-color:#f5f5f5;
+}
+.delWordBtn
+{
+    padding:0px;
+    background-color:transparent;
+    color: rgb(152, 179, 221);
+    border: 1px;
+    font-size: 20px;
+}
+
+.delWordBtn:active
+{
+    color: rgb(255, 0, 0);
+}
+
+#upload-icon{
+    font-size:30px;
+    color:rgb(18, 167, 236);
+}
+
+#uploadFile{
+    position:relative;
+    right: 35px;
+    bottom: 5px;
+    background-color:bisque;
+    border:1px solid #555;
+    opacity: 0;
+    font-size: 10px;
+    width: 30px;
+}
