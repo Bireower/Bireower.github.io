@@ -6,6 +6,8 @@ body{
     background-color: #ffe2b896;
 
 }
+/*单词表格样式*/
+
 table{
     top:150px;
     height: 40px;
@@ -32,6 +34,9 @@ table:nth-child(even){
 table:hover {
     background-color:#f5f5f5;
 }
+
+
+/*表格中删除(垃圾桶)按钮*/
 .delWordBtn
 {
     padding:0px;
@@ -45,8 +50,19 @@ table:hover {
 {
     color: rgb(255, 0, 0);
 }
+#wordBook
+{
 
-/* #upload-icon{
+
+}
+.wordListBtn
+{
+    top: 10px;
+}
+
+/* 上传图标按钮*/
+
+#upload-icon{
     font-size:30px;
     color:rgb(18, 167, 236);
 }
@@ -64,4 +80,4 @@ table:hover {
 #upLoadFileBtn{
     bottom: 10%;
     right: 50%;
-} */
+}

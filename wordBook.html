@@ -15,7 +15,7 @@
 
 <body>
 
-    <div id="wordList"></div> <!--根ID，整个APP的根-->
+    <div id="wordBook"></div> 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="js/CreateForm.js"></script>
     <script src="js/LoadLocalData.js"></script>
@@ -25,12 +25,11 @@
         <span class="iconfont" id ="upload-icon">&#xe60e;</span>
         <input type="file" id="uploadFile" onchange="UpdataFile()"/>
     </span> -->
-    
-    <input type="button" value="test" onclick="LoadLocalFile()"/>
+    <script>InitWLBtn()</script>
 
     <!-- <input type="text" value="None" id="wordLineEdit"/>
     <input type="button" value="add" onclick="AddLineWord()"/> -->
-    
+ 
 </body>
 </html>
 

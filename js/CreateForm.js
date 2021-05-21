@@ -2,12 +2,13 @@ function CreateForm(){
     //this.col = 3;
 }
 
-function CreateWordList(word,trans)
+function CreateWordFrom(word,trans,div)
 {
     this.dom = document.createElement("table");
     var tr,td;
     tr = document.createElement("tr");
     tr.className = "lineOfwords"
+
     for (var i =0;i<3;i++)
     {
         td = document.createElement("td");
@@ -32,11 +33,11 @@ function CreateWordList(word,trans)
             btn.appendChild(span)
             td.appendChild(btn)
         }
-
         tr.appendChild(td)
     }
     this.dom.appendChild(tr);
-    document.getElementById("wordList").appendChild(this.dom);
+    div.appendChild(this.dom);
+
 }
 
 function AddLineWord() 
@@ -63,6 +64,6 @@ function AddLineWord()
         tr.appendChild(td)
     }
     this.dom.appendChild(tr);
-    document.getElementById("wordList").appendChild(this.dom);
+    document.getElementById("wordBook").appendChild(this.dom);
     inputWord.value=""
 }
