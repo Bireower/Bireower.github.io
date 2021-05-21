@@ -46,7 +46,7 @@ table:hover {
     color: rgb(255, 0, 0);
 }
 
-#upload-icon{
+/* #upload-icon{
     font-size:30px;
     color:rgb(18, 167, 236);
 }
@@ -61,3 +61,7 @@ table:hover {
     font-size: 10px;
     width: 30px;
 }
+#upLoadFileBtn{
+    bottom: 10%;
+    right: 50%;
+} */
