@@ -19,7 +19,7 @@ p{
     border-radius: 11px;
     animation: float 5s ease-in-out infinite;
 }
-#HomePageLink{
+.HomePageLink{
     color: #774f38;
     text-decoration:none;
 }

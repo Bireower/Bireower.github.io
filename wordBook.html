@@ -4,39 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Document</title>
     <link href = "css/wordBook.css" rel="stylesheet" type="text/css">
     <link href = "css/fonts.css" rel="stylesheet" type="text/css">
-
-
-
-
 </head>
 
 <body>
-
-    <div id="wordBook"></div> 
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="js/CreateForm.js"></script>
-    <script src="js/LoadLocalData.js"></script>
-
-    <!--上传文件生成单词表单 停用-->
+    <p class="ReadMe">
+    <!-- 代做
+    1.单词权重
+    2.单词顺序排序
+    3.单词删除
+    4.单词自测
+    https://www.bilibili.com/video/BV1aK411p7gR/?spm_id_from=333.788.recommend_more_video.5-->
+    <!--上传文件、新增行生成单词表单 停用-->
     <!-- <span  id = "upLoadFileBtn">
         <span class="iconfont" id ="upload-icon">&#xe60e;</span>
         <input type="file" id="uploadFile" onchange="UpdataFile()"/>
     </span> -->
-    <script>InitWLBtn()</script>
-
     <!-- <input type="text" value="None" id="wordLineEdit"/>
     <input type="button" value="add" onclick="AddLineWord()"/> -->
- 
+    </p>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/WordList.js"></script>
+
+    <header class="TopNav">
+        <nav>
+            <a href="index.html" class = "TopNavLink">HomePage</a>
+            <a href="wordBook.html" class = "TopNavLink">WordBook</a>
+            <a href="#" class = "TopNavLink">Lireower</a>
+            <a href="index.html" class = "TopNavLink">Bireower</a>
+        </nav>
+    </header>
+
+    <div id="wordBook">
+        <script>InitWLBtn()</script>
+    </div> 
+   
 </body>
 </html>
 
-<!-- 单词部分
-    导入本地单词，txt/xml
-    显示单词，表格
-    单词权重
-    单词自测
-    https://www.bilibili.com/video/BV1aK411p7gR/?spm_id_from=333.788.recommend_more_video.5
--->
+
