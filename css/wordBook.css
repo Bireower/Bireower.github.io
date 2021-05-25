@@ -25,7 +25,7 @@ body{
     height: 50px;
     line-height: 50px;
     width: 55vw;
-    min-width: 500px;
+    min-width: 560px;
 }
 .nav input:checked ~.menu{
     width: 450px;
