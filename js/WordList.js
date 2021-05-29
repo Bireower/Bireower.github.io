@@ -19,7 +19,7 @@
 
 function LoadLocalFile(btnID)
 {
-    var fileName = btnID.slice(0,-7)
+    var fileName = btnID.slice(0,-7);
     var divId = fileName+"-WL-Div"
     var jsonFile
 
@@ -150,4 +150,9 @@ function AddLineWord()
     this.dom.appendChild(tr);
     document.getElementById("wordBook").appendChild(this.dom);
     inputWord.value=""
+}
+
+function PrintWordList(){
+    window.document.body.innerHTML=window.document.getElementsByClassName("wordList")[0].innerHTML;
+    window.print();
 }

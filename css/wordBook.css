@@ -83,20 +83,8 @@ table:hover {
 }
 
 
-/*表格中删除(垃圾桶)按钮*/
-.delWordBtn
-{
-    padding:0px;
-    background-color:transparent;
-    color: rgb(152, 179, 221);
-    border: 1px;
-    font-size: 20px;
-}
 
-.delWordBtn:active
-{
-    color: rgb(255, 0, 0);
-}
+
 /* 页码按钮 */
 #wordBook
 {
@@ -112,23 +100,24 @@ table:hover {
 
 .wordListBtn
 {
-    background-color: rgb(102, 136, 231);
+
+    background-color: rgb(102, 136, 231,0);
     border: none;
     border-radius: 20px;
     font-size: 15px;
-    color: white;
+    color: rgb(91, 152, 250);
     width: 40px;
     height: 40px;
     margin-top: 5px;
 }
 .wordListBtn:hover
 {
-    background-color: rgb(56, 103, 231);
+    background-color: rgb(56, 103, 231,0);
     box-shadow:0 5px 15px rgba(0, 0, 0, 0.2);
 }
 .wordListBtn:active
 {
-    background-color: rgb(82, 125, 243);
+    background-color: rgba(255, 60, 0, 0.1);
     height: 45px;
 }
 
@@ -136,7 +125,7 @@ table:hover {
 
 #upload-icon{
     font-size:30px;
-    color:rgb(18, 167, 236);
+    color: rgb(91, 152, 250);
 }
 
 #uploadFile{
@@ -152,4 +141,26 @@ table:hover {
 #upLoadFileBtn{
     bottom: 10%;
     right: 50%;
+}
+
+/*表格中删除(垃圾桶)按钮*/
+.delWordBtn
+{
+    padding:0px;
+    background-color:transparent;
+    color: rgb(152, 179, 221);
+    border: 1px;
+    font-size: 20px;
+}
+.delWordBtn:active
+{
+    color: rgb(255, 0, 0);
+}
+#printBtn
+{
+    padding:0px;
+    background-color:transparent;
+    color: rgb(91, 152, 250);
+    border: 1px;
+    font-size: 20px;
 }
