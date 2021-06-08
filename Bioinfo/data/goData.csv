@@ -1,0 +1,3 @@
+﻿GO NAME,water transport,transmembrane transport,response to water deprivation,response to abscisic acid,methylammonium transmembrane transport,protein binding,water channel activity,channel activity,mRNA binding,methylammonium transmembrane transporter activity,plasma membrane,membrane,integral component of membrane,vacuole,plasmodesma,plant-type vacuole membrane,vacuolar membrane,central vacuole,cytosol,protein storage vacuole,nucleus,anchored component of plasma membrane
+Count,26,21,11,6,5,45,37,21,9,5,80,42,23,21,14,14,10,7,4,3,3,3
+GO ASPECT,P,P,P,P,P,F,F,F,F,F,C,C,C,C,C,C,C,C,C,C,C,C

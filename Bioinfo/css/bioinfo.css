@@ -1,0 +1,22 @@
+.A-Page{
+    display: grid;
+    background-color: rgb(250, 241, 232);
+    height: 100%;
+    width: 100%;
+}
+.A-Chart{
+    display: grid;
+    background-color: rgb(250, 241, 232);
+    text-align: center;
+
+    height: 100%;
+    width: 100%;
+}
+
+img{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    max-width:60%;
+    left: 50px;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bioinfomation</title>
+    <link href="css/bioinfo.css" rel="stylesheet" type="text/css">
+    <link href = "css/fullpage.css" rel="stylesheet" type="text/css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/highcharts.js"></script>
+    <script src="js/fullpage.js"></script>
+    <script src="js/DataAnalysis.js"></script>
+
+</head>
+
+<body>
+    
+    <div id ="fullpage">
+        <div class="section">
+            <div id="Protein-Chart" class = "A-Chart"></div>
+        </div>
+        <div class="section">
+            <div id="Go-Chart" class = "A-Chart"></div>
+        </div>
+        <div class="section">
+            <div  class="A-Page">
+                <img src = "data/img/chrLoction.jpg" />
+            </div>
+        </div>
+        <div class="section">
+            <div class="A-Page">
+                <img src = "data/img/GeneStructure.png"/>
+            </div>
+        </div>
+        <div class="section">
+            <div class="A-Page">
+                <img src = "data/img/motifAndTree.jpg"/>
+                
+            </div>
+        </div>
+        <div class="section">
+            <div class="A-Page">
+                <img src = "data/img/proteinModel.gif"/>
+            </div>
+        </div>
+
+    </div>
+    
+
+    <script>GoAnalysis()</script>
+    <script>ProteinAnalysis()</script>
+    <script>
+        $(document).ready(function() {
+            $('#fullpage').fullpage();
+        });
+    </script>
+</body>
+
+</html>
