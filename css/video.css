@@ -1,0 +1,27 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+}
+
+.A-Page{
+    display: grid;
+    background-color: rgb(250, 241, 232);
+    height: 100%;
+    width: 100%;
+}
+.A-Chart{
+    display: grid;
+    background-color: rgb(250, 241, 232);
+    text-align: center;
+
+    height: 100%;
+    width: 100%;
+}
+
+img{
+    text-align: center;
+    align-items: center;
+    max-width:60%;
+    left: 50px;
+}
